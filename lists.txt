@@ -1,0 +1,114 @@
+
+//Jesus answered them, "Destroy this temple, and in three days I will raise it up." (John 2:19)
+
+*** Python LIST Tutorial ***
+
+
+# Now we’re creating a simple list.
+>>>listtutorial= [1, 3, 7, 9, 12, 15]
+
+----------------------------------------------
+# Show list data.
+>>>listtutorial
+
+----------------------------------------------
+#  Get third elemet from list.
+>>>listtutorial[3]
+
+-----------------------------------------------
+# From position 2 to the end. (Note: List first elemet position is "0")
+>>>listtutorial[2:]
+
+-----------------------------------------------
+# From the beginning to position 3.  (Note: List first elemet position is "0")
+>>>listtutorial[:3]
+
+------------------------------------------------
+# Return all elements of list.
+>>>listtutorial[:]
+
+-------------------------------------------------
+# From position 2 to 4.
+>>>listtutorial[2:4]
+
+-------------------------------------------------
+# Return second last element.
+>>>listtutorial[-2]
+
+--------------------------------------------------
+# Return from the third last elements to the end.
+>>>listtutorial[-3:]
+
+---------------------------------------------------
+#  Return from the 0 elements to the second last.
+>>>listtutorial[:-2]
+
+---------------------------------------------------
+
+# Return every secound item, starting with the 1 position.
+>>>listtutorial[1::2]
+
+---------------------------------------------------
+# Return every secound item, starting with the first.
+>>>listtutorial[::2]
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+************ List functions and methods ************
+---------------------------------------------------
+# Return total length of the list.
+>>>len(listtutorial)
+
+----------------------------------------------------
+# Return max item value from the list
+>>>max(listtutorial)
+
+-----------------------------------------------------
+# Return min item value from the list
+>>>min(listtutorial)
+
+------------------------------------------------------
+
+# Compare the two lists “listone” and “listtwo”. The result is an integen. 
+- Negative (-1):  listone < listtwo
+- Zero (0): listone < listtwo
+- Positive (1): listone > listtwo
+
+>>>listone = [1 ,2 ,3 ,4]
+>>>listtwo=[3,4,5,6]
+>>>cmp(listone, listtwo)
+
+---------------------------------------------------------
+# Update list by appending element to end of the list.
+>>>listtutorial.append(17)
+
+---------------------------------------------------------
+# Update list by inserting 200 element in 2 position.
+>>>listtutorial.insert(2, 200)
+
+---------------------------------------------------------
+# Extend "listtutorial" with "listextend"
+>>>listextend = ['a', 'b', 'c']
+>>>listtutorial.extend(listextend)
+
+---------------------------------------------------------
+# Remove and return item at 2 index. If there is no index set, then the last one is removed.
+ >>>listtutorial.pop(2)
+
+---------------------------------------------------------
+# Remove item from list.
+ >>>listtutorial.remove(9)
+
+---------------------------------------------------------
+# Reverses the elements of list in place.
+ >>>listtutorial.reverse()
+
+---------------------------------------------------------
+# Sorts objects of list.
+ >>>listtutorial.sort()
+
+
+
+---------------------------------------------------------
